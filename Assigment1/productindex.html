@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assigment1/assets/productstyle.css">
+    <title>Document</title>
+  </head>
+  <body>
+     <div class="button_group">
+      <div class="header_image">
+        <div class="container_2">
+          <div class="container">
+            <div class="container_1">
+              <div><a href="#">Trang chủ</a></div>
+              <div class="dropdown">
+                <a href="#">Giới thiệu</a>
+                <div class="dropdown-content">
+                  <a
+                    href="http://127.0.0.1:5500/Assigment1/productindex.html"
+                    target="_blank">Sản
+                    phẩm</a>
+                  <a href="#anchor-point">Sản phẩm Yêu
+                    Thích</a>
+                  <div class="container_menu">
+                    <aside>
+                      <ul>
+                        <li><a
+                            href="https://www.nike.com/vn">Nike</a></li>
+                        <li><a
+                            href="https://www.adidas.com.vn/vi">Adídas</a></li>
+                        <li><a href="https://bitis.com.vn/">bittis</a></li>
+                        <li><a
+                            href="https://conversestore.vn/">Converses</a></li>
+                      </ul>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+              <div class="contract"><a href="#">Góp ý Hỏi đáp Liên hệ</a>
+                <div class="contract_infor">
+                  <form action>
+                    <span>Thông Tin Liên Hệ Hỏi Đáp</span> <br>
+                    <span>SĐT:09874783833</span> <br>
+                    <span>Địa chỉ: CAO ĐẲNG FPOLY TECHNYCH</span> </form>
+                </div>
+              </div>
+            </div>
+            <div class="Langues">
+              <a href="#">Tiếng Việt</a>
+              <a href="#">English</a>
+            </div>
+            <div class="search-container"> <input type="search"
+                placeholder="Tìm kiếm "
+                id="search_area"></input>
+            <button type="submit"></button>
+          </div>
+          <div class="basket_icon">
+            <button type="submit"></button>
+          </div>
+          <button
+            onclick="document.getElementById('id02').style.display='block'"
+            style="width:100px;height: 40px;margin: 10px;">ĐĂNG
+            KÍ</button>
+          <div id="id02" class="modal">
+            <form class="modal-content animate" action="/action_page.php"
+              method="post">
+              <div class="imgcontainer">
+                <span
+                  onclick="document.getElementById('id02').style.display='none'"
+                  class="close"
+                  title="Close Modal">&times;</span>
+              </div>
+              <div class="container_3">
+                <fieldset>
+                  <label for="first_name">Họ Và Tên</label>
+                  <input type="text">
+                  <label for="birtday">Ngày tháng năm Sinh</label>
+                  <input type="date" name id> <br><br>
+                  <label for="address">ĐỊA CHỈ</label>
+                  <input type="text">
+                  <label for="phone_number">Số Điện Thoại</label>
+                  <input type="text" name id>
+                  <label for="for_email">Email</label>
+                  <input type="text" name id>
+
+                </fieldset>
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname"
+                  required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw"
+                  required>
+
+              </div>
+              <button type="submit">Đăng kí</button>
+              <div class="container_3" style="background-color:#f1f1f1">
+                <button type="button"
+                  onclick="document.getElementById('id02').style.display='none'"
+                  class="cancelbtn">Cancel</button>
+              </div>
+            </form>
+          </div>
+          <button
+            onclick="document.getElementById('id01').style.display='block'"
+            style="width:100px;height: 40px">ĐĂNG
+            NHẬP</button>
+          <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php"
+              method="post">
+              <div class="imgcontainer">
+                <span
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="close"
+                  title="Close Modal">&times;</span>
+              </div>
+              <div class="container_2">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname"
+                  required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw"
+                  required>
+
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember">
+                  Remember me
+                </label>
+              </div>
+
+              <div class="container_2" style="background-color:#f1f1f1">
+                <button type="button"
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="cancelbtn">Cancel</button>
+                <span class="psw"><a href="#">Quên MK?</a></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="left_column">
+      <ul>
+        <li><a href="#">Lifestyle</a></li>
+        <li><a href="#">Running</a></li>
+        <li><a href="#">Basketball</a></li>
+        <li><a href="#">Football</a></li>
+        <li><a href="#">Training & Gym</a></li>
+        <li><a href="#">Jordan</a></li>
+        <li><a href="#">Skateboarding</a></li>
+      </ul>
+    </div>
+    <div class="card_container"> <div class="card">
+        <div class="cart_heart">
+        </div>
+        <div class="card_cart">
+          <i class="bx bxs-cart-add"></i>
+        </div>
+        <div class="card_img">
+          <img
+            src="./assets/image/3me10142404-cloudrunner-2-ss24-undyed-green-m-d-1800x-png-v-1706683649-png-v-1711094917423.webp"
+            alt />
+        </div>
+        <div class="card_title">GIÀY HULK</div>
+        <div class="card_price">90$</div>
+        <div class="card_size">
+          <div>Size:</div>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </div>
+        <div class="card_color">
+          <h3>Color:</h3>
+          <span class="card_color_green"></span>
+          <span class="card_color_red"></span>
+          <span class="card_color_black"></span>
+        </div>
+        <div class="card_action">
+          <button>Buy Now</button>
+          <button>Add Cart</button>
+        </div>
+      </div>
+      <div class="card" id="card-container">
+        <div class="cart_heart">
+          <i class="bx bxs-heart-circle"></i>
+        </div>
+        <div class="card_cart">
+          <i class="bx bxs-cart-add"></i>
+        </div>
+        <div class="card_img">
+          <img
+            src="./assets/image/87dbcf08-94fd-4b28-9112-6160f24951cc-png-sw-700-sh-700-sm-fit-q-80.webp"
+            alt />
+        </div>
+        <div class="card_title">GIÀY HULK</div>
+        <div class="card_price">90$</div>
+        <div class="card_size">
+          <div>Size:</div>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </div>
+        <div class="card_color">
+          <h3>Color:</h3>
+          <span class="card_color_green"></span>
+          <span class="card_color_red"></span>
+          <span class="card_color_black"></span>
+        </div>
+        <div class="card_action">
+          <button>Buy Now</button>
+          <button>Add Cart</button>
+        </div>
+      </div>
+      <div class="card" id="card-container">
+        <div class="cart_heart">
+          <i class="bx bxs-heart-circle"></i>
+        </div>
+        <div class="card_cart">
+          <i class="bx bxs-cart-add"></i>
+        </div>
+        <div class="card_img">
+          <img src="./assets/image/R.png" alt />
+        </div>
+        <div class="card_title">GIÀY HULK</div>
+        <div class="card_price">90$</div>
+        <div class="card_size">
+          <div>Size:</div>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </div>
+        <div class="card_color">
+          <h3>Color:</h3>
+          <span class="card_color_green"></span>
+          <span class="card_color_red"></span>
+          <span class="card_color_black"></span>
+        </div>
+        <div class="card_action">
+          <button>Buy Now</button>
+          <button>Add Cart</button>
+        </div>
+      </div>
+      <div class="card" id="card-container">
+        <div class="cart_heart">
+          <i class="bx bxs-heart-circle"></i>
+        </div>
+        <div class="card_cart">
+          <i class="bx bxs-cart-add"></i>
+        </div>
+        <div class="card_img">
+          <img src="./assets/image/PNGkhothietke.net-02813.png" alt />
+        </div>
+        <div class="card_title">GIÀY HULK</div>
+        <div class="card_price">90$</div>
+        <div class="card_size">
+          <div>Size:</div>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+        </div>
+        <div class="card_color">
+          <h3>Color:</h3>
+          <span class="card_color_green"></span>
+          <span class="card_color_red"></span>
+          <span class="card_color_black"></span>
+        </div>
+        <div class="card_action">
+          <button>Buy Now</button>
+          <button>Add Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card_container"> <div class="card">
+      <div class="cart_heart">
+      </div>
+      <div class="card_cart">
+        <i class="bx bxs-cart-add"></i>
+      </div>
+      <div class="card_img">
+        <img
+          src="./assets/image/3me10142404-cloudrunner-2-ss24-undyed-green-m-d-1800x-png-v-1706683649-png-v-1711094917423.webp"
+          alt />
+      </div>
+      <div class="card_title">GIÀY HULK</div>
+      <div class="card_price">90$</div>
+      <div class="card_size">
+        <div>Size:</div>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+      </div>
+      <div class="card_color">
+        <h3>Color:</h3>
+        <span class="card_color_green"></span>
+        <span class="card_color_red"></span>
+        <span class="card_color_black"></span>
+      </div>
+      <div class="card_action">
+        <button>Buy Now</button>
+        <button>Add Cart</button>
+      </div>
+    </div>
+    <div class="card" id="card-container">
+      <div class="cart_heart">
+        <i class="bx bxs-heart-circle"></i>
+      </div>
+      <div class="card_cart">
+        <i class="bx bxs-cart-add"></i>
+      </div>
+      <div class="card_img">
+        <img
+          src="./assets/image/87dbcf08-94fd-4b28-9112-6160f24951cc-png-sw-700-sh-700-sm-fit-q-80.webp"
+          alt />
+      </div>
+      <div class="card_title">GIÀY HULK</div>
+      <div class="card_price">90$</div>
+      <div class="card_size">
+        <div>Size:</div>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+      </div>
+      <div class="card_color">
+        <h3>Color:</h3>
+        <span class="card_color_green"></span>
+        <span class="card_color_red"></span>
+        <span class="card_color_black"></span>
+      </div>
+      <div class="card_action">
+        <button>Buy Now</button>
+        <button>Add Cart</button>
+      </div>
+    </div>
+    <div class="card" id="card-container">
+      <div class="cart_heart">
+        <i class="bx bxs-heart-circle"></i>
+      </div>
+      <div class="card_cart">
+        <i class="bx bxs-cart-add"></i>
+      </div>
+      <div class="card_img">
+        <img src="./assets/image/R.png" alt />
+      </div>
+      <div class="card_title">GIÀY HULK</div>
+      <div class="card_price">90$</div>
+      <div class="card_size">
+        <div>Size:</div>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+      </div>
+      <div class="card_color">
+        <h3>Color:</h3>
+        <span class="card_color_green"></span>
+        <span class="card_color_red"></span>
+        <span class="card_color_black"></span>
+      </div>
+      <div class="card_action">
+        <button>Buy Now</button>
+        <button>Add Cart</button>
+      </div>
+    </div>
+    <div class="card" id="card-container">
+      <div class="cart_heart">
+        <i class="bx bxs-heart-circle"></i>
+      </div>
+      <div class="card_cart">
+        <i class="bx bxs-cart-add"></i>
+      </div>
+      <div class="card_img">
+        <img src="./assets/image/PNGkhothietke.net-02813.png" alt />
+      </div>
+      <div class="card_title">GIÀY HULK</div>
+      <div class="card_price">90$</div>
+      <div class="card_size">
+        <div>Size:</div>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+      </div>
+      <div class="card_color">
+        <h3>Color:</h3>
+        <span class="card_color_green"></span>
+        <span class="card_color_red"></span>
+        <span class="card_color_black"></span>
+      </div>
+      <div class="card_action">
+        <button>Buy Now</button>
+        <button>Add Cart</button>
+      </div>
+    </div>
+
+  </body>
+  <script>
+  var modal = document.getElementById('id01');
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+
+  </head>
+
+  <body>
+    <div class="button_group">
+      <div class="header_image">
+        <div class="button_on_image">
+          <a href="#">ĐĂNG KÍ</a>
+
+          <button
+            onclick="document.getElementById('id01').style.display='block'"
+            style="width:auto;"> <a href="#">ĐĂNG NHẬP</a></button>
+
+          <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php"
+              method="post">
+              <div class="imgcontainer">
+                <span
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="close" title="Close Modal">&times;</span>
+                <!-- <img src alt="Avatar" class="avatar"> -->
+              </div>
+
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname"
+                  required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw"
+                  required>
+
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember">
+                  Remember me
+                </label>
+              </div>
+
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button"
+                  onclick="document.getElementById('id01').style.display='none'"
+                  class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+            </form>
+          </div>
+          <div class="container">
+            <div class="container_1">
+              <div><a href="#">Trang chủ</a></div>
+              <div class="dropdown">
+                <a href="#">Giới thiệu</a>
+                <div class="dropdown-content">
+                  <a href="#">Sản phẩm</a>
+                  <a href="#anchor-point">Sản phẩm Yêu Thích</a>
+                  <div class="container_menu">
+                    <aside>
+                      <ul>
+                        <li><a id="nike_logo"
+                            href="https://www.nike.com/vn">Nike</a></li>
+                        <li><a
+                            href="https://www.adidas.com.vn/vi">Adídas</a></li>
+                        <li><a href="https://bitis.com.vn/">bittis</a></li>
+                        <li><a
+                            href="https://conversestore.vn/">Converses</a></li>
+                      </ul>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+              <div><a href="#">Góp ý</a></div>
+              <div><a href="#">Hỏi đáp</a></div>
+              <div><a href="#">Liên hệ</a></div>
+            </div>
+            <div class="Langues">
+              <a href="#">Tiếng Việt</a>
+              <a href="#">English</a>
+            </div>
+          </div>
+        </div>
+        <img src="./assets/image/maxresdefault.jpg" alt>
+      </div>
+    </div>
+
+    <div class="text_1">
+      <p></p>
+    </div>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="overlay"></div>
+        <div class="text">
+          <div class="wrapper">
+            <div id="L" class="letter">V</div>
+            <div class="shadow">V</div>
+          </div>
+          <div class="wrapper">
+            <div id="I" class="letter">Ũ</div>
+            <div class="shadow">Ũ</div>
+          </div>
+          <div class="wrapper">
+            <div id="G" class="letter">L</div>
+            <div class="shadow">L</div>
+          </div>
+          <div class="wrapper">
+            <div id="H" class="letter">Â</div>
+            <div class="shadow">Â</div>
+          </div>
+          <div class="wrapper">
+            <div id="T" class="letter">M</div>
+            <div class="shadow">M</div>
+          </div>
+          <div class="wrapper">
+            <div id="N" class="letter">S</div>
+            <div class="shadow">S</div>
+          </div>
+          <div class="wrapper">
+            <div id="E" class="letter">H</div>
+            <div class="shadow">H</div>
+          </div>
+          <div class="wrapper">
+            <div id="S" class="letter">O</div>
+            <div class="shadow">O</div>
+          </div>
+          <div class="wrapper">
+            <div id="Stwo" class="letter">P</div>
+            <div class="shadow">P</div>
+          </div>
+        </div>
+        <h1>Trending</h1>
+        <div id="anchor-point" class="fakeimg ">
+          <div class="card">
+            <div class="cart_heart">
+              <i class="bx bxs-heart-circle"></i>
+            </div>
+            <div class="card_cart">
+              <i class="bx bxs-cart-add"></i>
+            </div>
+            <div class="card_img">
+              <img
+                src="./assets/image/3me10142404-cloudrunner-2-ss24-undyed-green-m-d-1800x-png-v-1706683649-png-v-1711094917423.webp"
+                alt />
+            </div>
+            <div class="card_title">GIÀY HULK</div>
+            <div class="card_price">90$</div>
+            <div class="card_size">
+              <div>Size:</div>
+              <span>6</span>
+              <span>7</span>
+              <span>8</span>
+              <span>9</span>
+            </div>
+            <div class="card_color">
+              <h3>Color:</h3>
+              <span class="card_color_green"></span>
+              <span class="card_color_red"></span>
+              <span class="card_color_black"></span>
+            </div>
+            <div class="card_action">
+              <button>Buy Now</button>
+              <button>Add Cart</button>
+            </div>
+          </div>
+          <div class="card" id="card-container">
+            <div class="cart_heart">
+              <i class="bx bxs-heart-circle"></i>
+            </div>
+            <div class="card_cart">
+              <i class="bx bxs-cart-add"></i>
+            </div>
+            <div class="card_img">
+              <img
+                src="./assets/image/87dbcf08-94fd-4b28-9112-6160f24951cc-png-sw-700-sh-700-sm-fit-q-80.webp"
+                alt />
+            </div>
+            <div class="card_title">GIÀY HULK</div>
+            <div class="card_price">90$</div>
+            <div class="card_size">
+              <div>Size:</div>
+              <span>6</span>
+              <span>7</span>
+              <span>8</span>
+              <span>9</span>
+            </div>
+            <div class="card_color">
+              <h3>Color:</h3>
+              <span class="card_color_green"></span>
+              <span class="card_color_red"></span>
+              <span class="card_color_black"></span>
+            </div>
+            <div class="card_action">
+              <button>Buy Now</button>
+              <button>Add Cart</button>
+            </div>
+          </div>
+          <div class="card" id="card-container">
+            <div class="cart_heart">
+              <i class="bx bxs-heart-circle"></i>
+            </div>
+            <div class="card_cart">
+              <i class="bx bxs-cart-add"></i>
+            </div>
+            <div class="card_img">
+              <img src="./assets/image/R.png" alt />
+            </div>
+            <div class="card_title">GIÀY HULK</div>
+            <div class="card_price">90$</div>
+            <div class="card_size">
+              <div>Size:</div>
+              <span>6</span>
+              <span>7</span>
+              <span>8</span>
+              <span>9</span>
+            </div>
+            <div class="card_color">
+              <h3>Color:</h3>
+              <span class="card_color_green"></span>
+              <span class="card_color_red"></span>
+              <span class="card_color_black"></span>
+            </div>
+            <div class="card_action">
+              <button>Buy Now</button>
+              <button>Add Cart</button>
+            </div>
+          </div>
+          <div class="card" id="card-container">
+            <div class="cart_heart">
+              <i class="bx bxs-heart-circle"></i>
+            </div>
+            <div class="card_cart">
+              <i class="bx bxs-cart-add"></i>
+            </div>
+            <div class="card_img">
+              <img
+                src="./assets/image/PNGkhothietke.net-02813.png"
+                alt />
+            </div>
+            <div class="card_title">GIÀY HULK</div>
+            <div class="card_price">90$</div>
+            <div class="card_size">
+              <div>Size:</div>
+              <span>6</span>
+              <span>7</span>
+              <span>8</span>
+              <span>9</span>
+            </div>
+            <div class="card_color">
+              <h3>Color:</h3>
+              <span class="card_color_green"></span>
+              <span class="card_color_red"></span>
+              <span class="card_color_black"></span>
+            </div>
+            <div class="card_action">
+              <button>Buy Now</button>
+              <button>Add Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <h2>HỆ THỐNG CUNG CẤP</h2>
+        </div>
+      </body>
+      <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    </html>
